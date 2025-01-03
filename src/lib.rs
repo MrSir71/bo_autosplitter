@@ -316,7 +316,7 @@ async fn main() {
 
                                 // Update the scene we track
                                 if old_scene_name.as_deref() != Some(&name) {
-                                    print_message(&format!("new secene {}", name));
+                                    print_message(&format!("new scene {}", name));
                                     // Start timer for the first time
                                     if old_scene_name.as_deref() == Some("New Main Menu")
                                         && name == "CBF Intro"
